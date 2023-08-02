@@ -9,7 +9,7 @@ Download to your ubuntu vm
 
 Needs API Key and username to conect to the Mendix API's and download MDA.
 
-
+## Execute mxDockerSetup.sh
 
 mxDockerSetup.sh
 
