@@ -12,6 +12,9 @@ cp ../tests/docker-compose-hsqldb.yml tests
 
 perl -pi -e 's/^  */\t/' Makefile
 
-sudo make get-mda
+# This will download from Portal
+#sudo make get-mda
+# You provide the mda in the Repo , downloaded to vm. This copies it to the docker-mendix-buildpack/downloads directory
+sudo make cp-mda
 sudo make build-image
 sudo make run-container-hsql
