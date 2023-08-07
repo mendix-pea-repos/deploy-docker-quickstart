@@ -5,19 +5,18 @@
 
 Download to your ubuntu vm
 
-## Update env.sh 
-
-Needs API Key and username to conect to the Mendix API's and download MDA.
-
-## Execute mxDockerSetup.sh
-
-mxDockerSetup.sh
-
-It will install the pre-requisites, download mendix docker buildpack, download MDA from Mendix Portal , Deploy it to the docker environment
+   git clone https://github.com/mendix-pea-repos/deploy-docker-quickstart.git
+   cd deploy-docker-quickstart
+   . ./deployMda.sh
 
 ## Validation
 
-validate.sh
+   validate.sh
+
+
+## Update env.sh 
+
+Needs API Key and username to conect to the Mendix API's and download MDA.
 
 
 
