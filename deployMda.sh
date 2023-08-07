@@ -1,6 +1,24 @@
-###
+##
 ###
 ### Aug 2023 - Used to deploy MDA
+export PATH=$PATH:.
+export targetDir="docker-mendix-buildpack"
+echo $targetDir
+
+chmod +x *.sh
+if ! command -v docker &> /dev/null
+then
+    echo "*** docker could not be found.Installing pre-requisites ..."
+    installPreReqs.sh
+fi
+
+#Does the Directory exist 
+if [ ! -d ${targetDir} ]
+then
+     echo "*** $targetDir does not exist. Downloading Mendix docker buildpack ...  "
+     mxDockerSetup.sh
+fi
+
 cd docker-mendix-buildpack
 mkdir save
 cp * save

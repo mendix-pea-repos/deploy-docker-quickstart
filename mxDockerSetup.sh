@@ -3,5 +3,5 @@ cd docker-mendix-buildpack/
 make get-sample
 sudo make build-image
 sudo make get-sample
-sudo make run-container
+#sudo make run-container
 
