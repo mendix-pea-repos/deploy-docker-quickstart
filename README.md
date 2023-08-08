@@ -11,6 +11,9 @@
 
      validate.sh
 
+## Setup
+
+![VM Setup](/images/DeployDocker.png)
 
 ## Update env.sh 
 
