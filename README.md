@@ -1,7 +1,7 @@
 # deploy-docker-quickstart
   Deploy your MDA to docker
 
-## Note:
+## Note: For Demo or POC Use only
 
    This automation and setup is for demo or POC purposes only. 
 
