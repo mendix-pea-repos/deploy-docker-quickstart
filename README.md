@@ -1,6 +1,10 @@
 # deploy-docker-quickstart
   Deploy your MDA to docker
 
+## Note:
+
+   This automation and setup is for demo or POC purposes only. 
+
 ## Instructions
 
      git clone https://github.com/mendix-pea-repos/deploy-docker-quickstart.git
